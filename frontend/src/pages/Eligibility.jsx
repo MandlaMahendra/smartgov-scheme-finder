@@ -28,7 +28,7 @@ function Eligibility() {
     setHasSearched(true);
 
     try {
-      const res = await fetch("http://localhost:5000/api/schemes/match", {
+      const res = await fetch("https://smartgov-scheme-finder.onrender.com/api/schemes/match", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)

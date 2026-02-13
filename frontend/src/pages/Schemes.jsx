@@ -12,7 +12,7 @@ function Schemes() {
     const fetchSchemes = async () => {
       setLoading(true);
       try {
-        const response = await axios.get("http://localhost:5000/api/schemes");
+        const response = await axios.get("https://smartgov-scheme-finder.onrender.com/api/schemes");
         setSchemes(response.data);
         setError(null);
       } catch (err) {

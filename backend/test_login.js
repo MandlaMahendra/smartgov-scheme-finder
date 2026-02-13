@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 async function testAuth() {
-    const baseUrl = 'http://localhost:5000/api/auth';
+    const baseUrl = 'https://smartgov-scheme-finder.onrender.com/api/auth';
     const testUser = {
         name: "Test User",
         email: `test${Date.now()}@example.com`,

@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 async function testFilters() {
-    const baseUrl = 'http://localhost:5000/api/schemes';
+    const baseUrl = 'https://smartgov-scheme-finder.onrender.com/api/schemes';
 
     try {
         console.log("Testing No Filter...");

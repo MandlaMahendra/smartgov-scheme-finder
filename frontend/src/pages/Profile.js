@@ -47,7 +47,7 @@ function Profile() {
       }
 
       try {
-        const res = await axios.get("http://localhost:5000/api/auth/profile", {
+        const res = await axios.get("https://smartgov-scheme-finder.onrender.com/api/auth/profile", {
           headers: { "x-auth-token": token }
         });
         setUser(res.data);
@@ -84,7 +84,7 @@ function Profile() {
       const token = localStorage.getItem("token");
       // Use a large limit on server or handle appropriately. 
       // Here we send JSON with base64 image.
-      const res = await axios.put("http://localhost:5000/api/auth/profile", formData, {
+      const res = await axios.put("https://smartgov-scheme-finder.onrender.com/api/auth/profile", formData, {
         headers: { "x-auth-token": token }
       });
       setUser(res.data);
