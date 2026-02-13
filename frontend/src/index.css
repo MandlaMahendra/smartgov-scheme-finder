@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Government Portal Theme */
+
+body {
+  @apply bg-gray-100 text-gray-800 font-sans;
+}
+
+.gov-topbar {
+  @apply bg-black text-white text-sm py-1 px-6 flex justify-between;
+}
+
+.gov-navbar {
+  @apply bg-blue-900 text-white shadow-md;
+}
+
+.gov-container {
+  @apply max-w-7xl mx-auto px-6;
+}
+
+.gov-card {
+  @apply bg-white rounded-lg shadow-md p-6 transition hover:shadow-lg;
+}
+
+.gov-button-primary {
+  @apply bg-blue-700 text-white px-5 py-2 rounded-md hover:bg-blue-800 transition;
+}
+
+.gov-button-danger {
+  @apply bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition;
+}
+
+.gov-input {
+  @apply w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600;
+}
