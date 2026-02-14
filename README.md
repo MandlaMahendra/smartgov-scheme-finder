@@ -3,7 +3,7 @@
 SmartGovSchemeFinder is a full-stack web application designed to help users find government schemes easily. It features a React frontend and an Express/Node.js backend with MongoDB for data storage.
 
 ## 🚀 Live Demo
-Check out the live application: [https://smartgov-scheme-finder.onrender.com](https://smartgov-scheme-finder.onrender.com)
+Check out the live application: https://smartgov-scheme-finder.vercel.app/
 
 ## 📁 Project Structure
 
